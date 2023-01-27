@@ -24,4 +24,21 @@ const asserArraysEqual = function(arr1, arr2) {
   
 };
 
-asserArraysEqual([1,2,3,4], [1,2,3,4]);
+const flatten = function(arr) {
+  const final = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (Array.isArray(arr[i])) {
+      for (let j = 0; j < arr[i].length; j++) {
+        final.push(arr[i][j]);
+      }
+    } else {
+      final.push(arr[i]);
+    }
+  }
+
+  return final;
+};
+
+asserArraysEqual(flatten([[0], 1, [2,3],[4]]), [0,1,2,3,4]);
+asserArraysEqual(flatten([1, [2,'text', 3],[4], '5']), [1, 2, 'text', 3, 4,'5']);
