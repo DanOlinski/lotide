@@ -19,9 +19,7 @@ const asserArraysEqual = function(arr1, arr2) {
     final = '😣😣😣 Assertion failed';
   }
 
-  console.log(final);
-  //return ''
-  
+  console.log(final);  
 };
 
 asserArraysEqual([1,2,3,4], [1,2,3,4]);
