@@ -10,13 +10,13 @@ const asserArraysEqual = function(arr1, arr2) {
     }
 
   } else {
-    final = '😣😣😣 Assertion failed';
+    final = `😣😣😣Assertion Failed: ${arr1} !== ${arr2}`;
   }
 
   if (valuesCheck === arr1.length) {
-    final = '😎😎😎 Assertion passed';
+    final = `😎😎😎Assertion Passed: ${arr1} === ${arr2}`;
   } else {
-    final = '😣😣😣 Assertion failed';
+    final = `😣😣😣Assertion Failed: ${arr1} !== ${arr2}`;
   }
 
   console.log(final);  
