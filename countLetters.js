@@ -28,4 +28,3 @@ const countLetters = function(string) {
 
 console.log(countLetters('aaa bb c'));
 
-
