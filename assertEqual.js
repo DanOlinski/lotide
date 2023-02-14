@@ -10,5 +10,7 @@ let assertEqual = function(actual, expected) {
   console.log(final);
 };
 
-assertEqual('Lighhouse Labs', 'Bootcamp');
-assertEqual(1, 1);
+module.exports = assertEqual;
+
+// assertEqual('Lighhouse Labs', 'Lighhouse Labs');
+// assertEqual(1, 1);
