@@ -22,4 +22,4 @@ const asserArraysEqual = function(arr1, arr2) {
   console.log(final);  
 };
 
-asserArraysEqual([1,2,3,4], [1,2,3,4]);
+module.exports = asserArraysEqual
