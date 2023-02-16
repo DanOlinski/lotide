@@ -14,4 +14,4 @@ describe("#assertEqualTest", () => {
   it('returns 1 for 1', () => {
     assert(assertEqual(1, 1), 1).to.be.equal;
   });
-});
+}); 

@@ -18,4 +18,4 @@ describe("#tail", () => {
     expect(tail(['Hello', 'Lighthouse', 'Labs']), ['Lighthouse', 'Labs']).to.be.equal;
   });
 
-});
+}); 

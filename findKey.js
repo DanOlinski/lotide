@@ -12,7 +12,7 @@ const findKey = function(object, callback) {
 
   return final;
 };
-
+ 
 module.exports = findKey
 
 // const assertEqual = require('./assertEqual')

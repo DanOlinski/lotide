@@ -18,5 +18,5 @@ const countLetters = function(string) {
 
 module.exports = countLetters
 
-//console.log(countLetters('aaa bb c'));
+//console.log(countLetters('aaa bb c')); 
 

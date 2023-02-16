@@ -18,4 +18,4 @@ describe("#head", () => {
   it('returns 5(string notation) for [5](string notation)', () => {
     assert.strictEqual(head(['5']), '5');
   });
-});
+}); 

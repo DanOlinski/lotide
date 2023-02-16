@@ -24,5 +24,5 @@ const eqArrays = function(arr1, arr2) {
   return final;
 };
 
-module.exports = eqArrays
+module.exports = eqArrays 
 

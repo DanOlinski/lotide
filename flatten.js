@@ -19,3 +19,4 @@ module.exports = flatten
 // const assertArraysEqual = require('./assertArraysEqual')
 // assertArraysEqual(flatten([[0], 1, [2,3],[4]]), [0,1,2,3,4]);
 // assertArraysEqual(flatten([1, [2,'text', 3],[4], '5']), [1, 2, 'text', 3, 4,'5']);
+ 
