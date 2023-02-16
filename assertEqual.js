@@ -11,6 +11,3 @@ let assertEqual = function(actual, expected) {
 };
 
 module.exports = assertEqual;
-
-// assertEqual('Lighhouse Labs', 'Lighhouse Labs');
-// assertEqual(1, 1); 

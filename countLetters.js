@@ -1,5 +1,3 @@
-
-
 const countLetters = function(string) {
   const final = {};
   for (const i of string) {
@@ -18,5 +16,4 @@ const countLetters = function(string) {
 
 module.exports = countLetters
 
-//console.log(countLetters('aaa bb c')); 
 

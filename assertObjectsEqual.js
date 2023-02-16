@@ -13,16 +13,3 @@ const assertEqualObjects = function(actual, expected) {
 };
  
 module.exports = assertEqualObjects
-
-// const shirtObject = {color: 'red', size: 'medium'};
-// const anotherShirtObject = {size: 'medium', color: 'red'};
-// const longSleeveShirtObject = {size: 'medium', color: 'red', sleeveLength: 'long'};
-// const multiColorShirtObject = {colors: ['red', 'blue'], size: 'medium'};
-// const anotherMultiColorShirtObject = {size: 'medium', colors: ['red', 'blue']};
-// const longSleeveMultiColorShirtObject = {size: 'medium', colors: ['red', 'blue'], sleeveLength: 'long'};
-
-
-// assertEqualObjects(shirtObject, anotherShirtObject); //pass
-// assertEqualObjects(shirtObject, longSleeveShirtObject); //no pass
-// assertEqualObjects(multiColorShirtObject, anotherMultiColorShirtObject); //pass
-// assertEqualObjects(multiColorShirtObject, longSleeveMultiColorShirtObject); //no pass

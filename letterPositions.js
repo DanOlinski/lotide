@@ -15,5 +15,3 @@ const letterPositions = function(string) {
 };
 
 module.exports = letterPositions
-
-// console.log(letterPositions('hello')); 

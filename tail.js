@@ -1,5 +1,3 @@
-//let assertEqual = require('./assertEqual');
-
 const tail = function(item1) {
   let final = [];
   for (let i = 1; i < item1.length; i++) {
