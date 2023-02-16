@@ -1,4 +1,4 @@
-let assertEqual = require('./assertEqual')
+//let assertEqual = require('./assertEqual')
 
 const head = function(item1) {
   //console.log(item1[0])
