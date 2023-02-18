@@ -27,7 +27,7 @@ This project was created and published by me as part of my learnings at Lighthou
 The following functions are currently implemented:
 
 * `head`: This function takes in an array and returns the first value of that array.
-* `tail`: This function takes in an arry and returns the all values except for the first value of the given array.
+* `tail`: This function takes in an arry and returns all values except for the first value of the given array.
 * `middle`: This function takes in an arry and returns the values in the middle of that array.
 * `assertArraysEqual`: This function takes in a function(that outputs an array) and an array. the 'expected' value an array that you expect the function will output, assertArraysEqual will then tell you if your function passed the test or not.
 * `assertEqual`: This function takes in a function and a primative value. the 'expected' value is what you expect the function will output, assertEqual will then tell you if your function passed the test or not.

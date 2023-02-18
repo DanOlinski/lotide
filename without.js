@@ -6,6 +6,7 @@ const without = function(arrIn, remFromArr) {
     final.push(i);
   }
 
+  //remove items from final array that are equal to items found in remFromArr
   for (let i = 0; i < final.length; i++) {
     for (let j = 0; j < remFromArr.length; j++) {
       if (final[i] === remFromArr[j]) {

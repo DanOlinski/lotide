@@ -1,4 +1,4 @@
-//This function takes in an arry and returns the all values except for the first value of the given array.
+//This function takes in an arry and returns all values except for the first value of the given array.
 const tail = function(item1) {
   let final = [];
 
