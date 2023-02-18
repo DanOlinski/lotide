@@ -1,4 +1,7 @@
-const eqObjects = require('./eqObjects')
+//This function takes in a function(that outputs an object) and an object. the 'expected' object is what you expect the function will output, assertObjectEqual will then tell you if your function passed the test or not.
+
+//eqObjects compairs two objects and returns true of false (if they are equal or not)
+const eqObjects = require('./eqObjects');
 
 const assertEqualObjects = function(actual, expected) {
   let final;
@@ -12,4 +15,4 @@ const assertEqualObjects = function(actual, expected) {
   console.log(final);
 };
  
-module.exports = assertEqualObjects
+module.exports = assertEqualObjects;

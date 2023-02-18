@@ -1,25 +1,17 @@
-const asserArraysEqual = function(arr1, arr2) {
-  let valuesCheck = 0;
+//This function takes in a function(that outputs an array) and an array. the 'expected' value an array that you expect the function will output, assertArraysEqual will then tell you if your function passed the test or not.
+const eqArray = require('./eqArrays');
+const asserArraysEqual = function(arr1, expectedArr) {
   let final;
-
-  if (arr1.length === arr2.length) {
-    for (let i = 0; i < arr1.length; i++) {
-      if (arr1[i] === arr2[i]) {
-        valuesCheck += 1;
-      }
-    }
-
+  
+  //eqArray is used to compair 2 arrays
+  if (eqArray(arr1, expectedArr)) {
+    //message that arrays are equal
+    final = `😎😎😎Assertion Passed: ${arr1} === ${expectedArr}`;
   } else {
-    final = `😣😣😣Assertion Failed: ${arr1} !== ${arr2}`;
+    //message that arrays are not equal
+    final = `😣😣😣Assertion Failed: ${arr1} !== ${expectedArr}`;
   }
-
-  if (valuesCheck === arr1.length) {
-    final = `😎😎😎Assertion Passed: ${arr1} === ${arr2}`;
-  } else {
-    final = `😣😣😣Assertion Failed: ${arr1} !== ${arr2}`;
-  }
-
-  console.log(final);  
+  console.log(final);
 };
 
-module.exports = asserArraysEqual 
+module.exports = asserArraysEqual;
