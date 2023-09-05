@@ -1,4 +1,4 @@
-const middle = require('../middle');
+const middle = require('../modules/middle');
 const chai = require('chai');
 const assert = chai.assert;
 

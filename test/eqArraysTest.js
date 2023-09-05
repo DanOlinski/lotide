@@ -1,4 +1,4 @@
-const eqArrays = require('../eqArrays');
+const eqArrays = require('../modules/eqArrays');
 
 const chai = require('chai');
 const assert = chai.expect;

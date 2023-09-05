@@ -1,4 +1,4 @@
-const tail = require('../tail');
+const tail = require('../modules/tail');
 const chai = require('chai');
 const expect = chai.expect;
 

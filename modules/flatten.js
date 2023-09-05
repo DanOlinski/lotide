@@ -1,4 +1,4 @@
-// This function converts nested arrays into a single array.
+// Converts nested arrays into a single level array.
 const flatten = function(arr) {
   const final = [];
 

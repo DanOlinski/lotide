@@ -1,5 +1,4 @@
-
-//This function compairs two objects and returns true of false (if they are equal or not).
+//This function compares two objects and returns true of false (if they are equal or not).
 
 const eqArrays = require('./eqArrays');
 const eqObjects = function(obj1, obj2) {
@@ -9,13 +8,13 @@ const eqObjects = function(obj1, obj2) {
   } else {
 
     for (let i in obj1) {
-      //if a key has an array use eqArray to compair arrays inside obj1 and obj2
+      //if a key has an array use eqArray to compare arrays inside obj1 and obj2
       if (Array.isArray(obj1[i])) {
         if (!eqArrays(obj1[i], obj2[i])) {
           return false;
         }
       } else {
-        //if key value is not an array compair the the values of each key within both objects
+        //if key value is not an array compare the the values of each key within both objects
         if (obj1[i] !== obj2[i]) {
           return false;
         }

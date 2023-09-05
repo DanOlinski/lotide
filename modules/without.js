@@ -1,4 +1,4 @@
-//This function takes in a source array(arrIn) and an itemsToRemove array, it then returns only the items from the source array that are not in the itemsToRemove array
+//This function takes in 2 arrays; the 1st array is the source array, and the second array is the items you want to remove from the source array.
 const without = function(arrIn, remFromArr) {
   let final = [];
 

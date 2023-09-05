@@ -1,9 +1,9 @@
-//This takes in an object and an item, it will then check if the given item is in the object and it will return the amount of times, that item occurs in the given object.
+//This function takes in an object and an array of strings, it will then check if the strings from the givin array are present as keys within the passed in object. The function will also do a second check for object keys that have a value equal to true, and will disconsider the keys that have a value equal to false. CountOnly, will then return the amount of times each item from the passed in array occurs in the passed in object (taking into account the true of false key values).
 const countOnly = function(allItems, itemsToCount) {
   let results = {};
 
   for (let i of allItems) {
-    //if an item in the items to count is set to false it will disregard that item
+    //if an item in the itemsToCount is set to false it will disregard that item at the filter below
     if (itemsToCount[i]) {
       //if a key in results matches a values in itemsToCount it will add 1 to the value related to that key inside results(representing the amount of times that item occurred)
       if (results[i]) {

@@ -1,3 +1,4 @@
+//This module is used for testing and there fore it is not listed in the README file
 //This function takes in a function(that outputs an array) and an array. the 'expected' value an array that you expect the function will output, assertArraysEqual will then tell you if your function passed the test or not.
 const eqArray = require('./eqArrays');
 const asserArraysEqual = function(arr1, expectedArr) {
